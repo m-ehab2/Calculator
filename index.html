@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">Calculator App</div>
+        <div class="mid">
+            <div class="cont">
+                <div class="screen" id="Screen" >0</div>
+                <div class="keypad">
+                    <div class="numbers">
+                        <div class="oneto9">
+                            <button onclick="append(1)">1</button>
+                            <button onclick="append(2)">2</button>
+                            <button onclick="append(3)">3</button>
+                            <button onclick="append(4)">4</button>
+                            <button onclick="append(5)">5</button>
+                            <button onclick="append(6)">6</button>
+                            <button onclick="append(7)">7</button>
+                            <button onclick="append(8)">8</button>
+                            <button onclick="append(9)">9</button>
+                        </div>
+                        <div class="zero">
+                            <button onclick="append(0)">0</button>
+                        </div>
+
+                    </div>
+                    <div class="operations">
+                        <div class="ops">
+                        <button>+</button>
+                        <button>-</button>
+                        <button>*</button>
+                        <button>/</button>
+                        </div>
+                        <div class="ops2">
+                            <button>=</button>
+                            <button><=</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">Created by m-ehab2 as a part of the Odin project</div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

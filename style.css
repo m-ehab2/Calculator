@@ -1,0 +1,149 @@
+html,body{
+    height: 100%;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: font1;
+    src: url(Alef-Regular.ttf);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F7F0F5 ;
+    justify-content: space-between;
+    height: 100%;
+}
+.footer{
+    font-family: font1;
+    background-color: #F7F0F5;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: small;
+}
+.header{
+    font-family: font1; 
+    background-color: #F7F0F5;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.cont{
+    background-color: #00111C;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.mid{
+    width: 60%;
+    height: 60%;
+}
+.screen{
+    width: auto;
+    background-color: #F7F0F5;
+    height: auto;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: xxx-large;
+    text-align: left;
+    margin: 5px 5px;
+    box-sizing: border-box;
+}
+.keypad{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.keypad>.numbers{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+}
+.keypad>.numbers>.oneto9{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(3,33%);
+    row-gap: 5px;
+    column-gap: 5px;
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.keypad>.numbers>.oneto9>button{
+    font-size: larger;
+    box-sizing: border-box;
+    background-color: #002E4E;
+    border: 0px;
+    border-radius: 12px;
+    color: #F7F0F5;
+
+}
+.zero{
+    width: 24%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: grid;
+    height: 101.5%;
+    box-sizing: border-box;
+}
+.zero>button{
+    font-size: larger;
+    background-color: #002E4E;
+    border: 0px;
+    border-radius: 12px;
+    color: #F7F0F5;
+
+}
+.operations{
+    display: flex;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 100%;
+    width: 30%;
+}
+.ops{
+    height: 100%;
+    display: grid;
+    width: 50%;
+    height: 101.5%;
+    grid-template-rows: repeat(4,24%);
+    row-gap: 5px;
+}
+.ops>button{
+    font-size: larger;
+    background-color: #002E4E;
+    border: 0px;
+    border-radius: 12px;
+    color: #F7F0F5;
+
+}
+.ops2{
+    display: grid;
+    height: 101.5%;
+    width: 50%;
+    grid-template-rows: repeat(2,49.5%);
+    box-sizing: border-box;
+    row-gap: 5px;
+    padding: 0px 5px;
+}
+.ops2>button{
+    font-size: larger;
+    background-color: #002E4E;
+    border: 0px;
+    border-radius: 12px;
+    color: #F7F0F5;
+}
