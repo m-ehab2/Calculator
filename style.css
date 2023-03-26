@@ -135,7 +135,7 @@ html,body{
     display: grid;
     height: 101.5%;
     width: 50%;
-    grid-template-rows: repeat(2,49.5%);
+    grid-template-rows: repeat(2,33.5%);
     box-sizing: border-box;
     row-gap: 5px;
     padding: 0px 5px;
